@@ -1,0 +1,23 @@
+Entrada de dados:
+
+O programa pede ao usuário para inserir seu nome, idade e altura, armazenando esses valores em variáveis nome, idade e altura.
+
+A função input() captura as informações, sendo que idade é convertida para um número inteiro com int() e altura para um número com casas decimais usando float().
+
+Processamento de informações:
+
+O código calcula o ano de nascimento do usuário subtraindo a idade de 2025. Vale observar que isso não leva em consideração o mês e dia exatos do nascimento, podendo resultar em uma estimativa imprecisa.
+
+Exibição dos dados:
+
+Através de comandos print(), o programa exibe uma saudação ao usuário, informa o ano estimado de nascimento e exibe a altura com 2 casas decimais.
+
+Função imc():
+
+A função imc() é criada para calcular o Índice de Massa Corporal (IMC) do usuário. A função pede o peso, faz o cálculo do IMC usando a fórmula peso / (altura ** 2) e exibe o valor.
+
+O IMC calculado é retornado para uso posterior.
+
+Chamada da função imc():
+
+A função imc() é chamada no final para calcular e exibir o IMC do usuário.
